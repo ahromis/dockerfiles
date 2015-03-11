@@ -8,4 +8,4 @@ This is an example of how it it can be run and still use containers to build/tes
 docker run -e BAMBOO_SERVER=http://yourbamboo.domain.com -h bamboo-agent --name bamboo-agent -d -v /data/bamboo-agent-home:/data/bamboo-agent-home -v /var/run/docker.sock:/var/run/docker.sock ahromis/bamboo-agent
 ```
 
-A lot of credit goes to `hwuethrich/docker-images` as this is essentially using a modified version of his `start.sh` script. 
+A lot of credit goes to Hannes Wüthrich for his `hwuethrich/docker-images` repo as this is essentially using a modified version of his `start.sh` script. 
