@@ -1,4 +1,4 @@
-FROM java:openjdk-7u75-jre
+FROM java:7u75-jre
 MAINTAINER Andrew Hromis "http://hromis.com"
 
 RUN apt-get update && apt-get install -y wget git && rm -rf /var/lib/apt/lists/*
