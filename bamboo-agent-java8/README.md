@@ -1,6 +1,6 @@
 # Docker Bamboo Agent
 
-This is a minimalistic bamboo agent. It can be used as a base to build upon or it can be used with volumes if you build with containers. This also contains the latest docker client.
+This is a minimalistic bamboo agent. This agent uses Java 8 and can be used by Bamboo 5.8+. It can be used as a base to build upon or it can be used with volumes if you build with containers. This also contains the latest docker client.
 
 This is an example of how it it can be run and still use containers to build/test.
 
